@@ -37,7 +37,7 @@ audioread==3.0.1
     # via librosa
 awscli==1.35.23
     # via -r requirements-test.in
-bitsandbytes>=0.45.0
+bitsandbytes==0.49.1
     # via -r requirements-test.in
 black==24.10.0
     # via datamodel-code-generator
@@ -300,6 +300,7 @@ opencv-python-headless==4.10.0.84
 packaging==24.1
     # via
     #   accelerate
+    #   bitsandbytes
     #   black
     #   datamodel-code-generator
     #   datasets
@@ -357,7 +358,7 @@ py==1.11.0
     # via pytest-forked
 pyarrow==18.0.0
     # via datasets
-pyasn1==0.6.1
+pyasn1==0.6.2
     # via rsa
 pybind11==2.13.6
     # via lm-eval
